@@ -1,0 +1,295 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "rentals",
+        "patterns": ["rentals", "rental", "rent", "rent a bike", "rent a moped", "rent a scooter"],
+        "responses": ["We rent mopeds and scooters", "We have rentals available"]
+        
+      },
+      {
+          "tag": "repairs",
+          "patterns": ["repairs", "repair", "fix", "fix my bike", "fix my moped", "fix my scooter"],
+          "responses": ["We repair mopeds and scooters", "We have repairs available"]
+          
+      },
+      {
+          "tag": "sales",
+          "patterns": ["sales", "sale", "buy", "buy a bike", "buy a moped", "buy a scooter"],
+          "responses": ["We sell mopeds and scooters", "We have sales available"]
+          
+      },
+      {
+          "tag": "parts",
+          "patterns": ["parts", "part", "accessories", "accessory"],
+          "responses": ["We sell parts and accessories", "We have parts and accessories available"]
+          
+      },
+      {
+          "tag": "gas",
+          "patterns": ["gas", "fuel", "fill up", "fill my tank"],
+          "responses": ["We sell gas", "We have gas available"]
+          
+      },
+      {
+          "tag": "parking",
+          "patterns": ["parking", "park", "park my bike", "park my moped", "park my scooter"],
+          "responses": ["We have parking available", "We have a parking lot"]
+          
+      },
+      {
+          "tag": "insurance",
+          "patterns": ["insurance", "insure", "insure my bike", "insure my moped", "insure my scooter"],
+          "responses": ["We sell insurance", "We have insurance available"]
+          
+      },
+      {
+          "tag": "tires",
+          "patterns": ["tires", "tire", "tire change", "change my tire"],
+          "responses": ["We sell tires", "We have tires available"]
+          
+      },
+      {
+          "tag": "helmet",
+          "patterns": ["helmet", "helmets", "helmet rental", "rent a helmet"],
+          "responses": ["We rent helmets", "We have helmets available"]
+          
+      },
+      {
+          "tag": "lock",
+          "patterns": ["lock", "locks", "lock rental", "rent a lock"],
+          "responses": ["We rent locks", "We have locks available"]
+         
+      },
+      {
+          "tag": "maps",
+          "patterns": ["maps", "map", "map rental", "rent a map"],
+          "responses": ["We rent maps", "We have maps available"]
+          
+      },
+      {
+          "tag": "google",
+          "patterns": ["google", "google it", "google search", "search google"],
+          "responses": ["Here's a link to Google", "https://www.google.com"]
+        
+      },
+      {
+          "tag": "bing",
+          "patterns": ["bing", "bing it", "bing search", "search bing"],
+          "responses": ["Here's a link to Bing", "https://www.bing.com"]
+          
+      },
+      {
+          "tag": "google maps",
+          "patterns": ["google maps", "google map", "google map it", "google map search", "search google maps", "search google map"],
+          "responses": ["Here's a link to Google Maps", "https://www.google.com/maps"]
+          
+      },
+      {
+          "tag": "search",
+          "patterns": ["search", "search it", "search the web", "search the internet"],
+          "responses": ["Here's a link to Google", "https://www.google.com"]
+          
+      },
+      {
+          "tag": "weather",
+          "patterns": ["weather", "what's the weather", "what's the weather like", "what's the weather in"],
+          "responses": ["Here's a link to the weather", "https://www.google.com/search?q=weather"]
+          
+      },
+      {
+          "tag": "news",
+          "patterns": ["news", "what's the news", "what's the news today", "what's the news in"],
+          "responses": ["Here's a link to the news", "https://www.google.com/search?q=news"]
+          
+      },
+      {
+          "tag": "sports",
+          "patterns": ["sports", "what's the sports", "what's the sports today", "what's the sports in"],
+          "responses": ["Here's a link to the sports", "https://www.google.com/search?q=sports"]
+          
+      },
+      {
+          "tag": "code",
+          "patterns": ["code", "source code", "source", "github", "github code", "github source", "github source code"],
+          "responses": ["No, I'm not open source", "I can't share any code"]
+        
+      },
+      {
+          "tag": "apology",
+          "patterns": ["I'm sorry", "My apologies", "Sorry about that", "Apologies", "I'm so sorry"],
+          "responses": ["No problem, it happens!", "It's okay, don't worry about it.", "Thank you for apologizing.", "No worries, let's move on."]
+          
+      },
+      {
+          "tag": "help",
+          "patterns": ["Can you help me?", "I need help", "Could you assist me?", "Please help me", "Can you assist me?", "I'm stuck"],
+          "responses": ["Sure, what can I help you with?", "Of course, how may I assist you?", "I'd be happy to help. What do you need help with?", "Absolutely, please let me know how I can assist you."]
+                
+      },
+      {
+          "tag": "product_inquiry",
+          "patterns": ["What products do you have?", "Can you recommend a product?", "What do you have for sale?", "What are your top-selling products?"],
+          "responses": ["We have a wide range of products available, what are you interested in?", "Of course, what type of product are you looking for?", "Our top-selling products include [list of products], would you like more information on any of these?", "Sure, I can recommend a product based on your needs. What type of product are you looking for?"]
+        
+      },
+      {
+          "tag": "order_status",
+          "patterns": ["Where is my order?", "What is the status of my order?", "Can you give me an update on my order?", "When will my order arrive?"],
+          "responses": ["I can definitely check on the status of your order. Can you please provide your order number?", "Sure, let me check on the status of your order. Can you please provide your order number?", "I can look up your order and provide you with an update. Can you please provide your order number?", "I'd be happy to check on your order for you. Can you please provide your order number?"]
+          
+      },
+      {
+          "tag": "review",
+          "patterns": ["What are the reviews for [product name]?", "Can you tell me more about [product name]?", "What do people think of [product name]?", "Is [product name] a good product?"],
+          "responses": ["[Product name] has received generally positive reviews. Customers have praised its [features/benefits].", "Customers have been pleased with [product name]'s [features/benefits]. Its overall rating is [rating] stars out of 5 stars.", "Based on customer reviews, [product name] is a highly rated product. It has received positive feedback for its [features/benefits]."]
+          
+      },
+      {
+          "tag": "comparison",
+          "patterns": ["How does [product name] compare to [competitor product name]?", "What are the differences between [product name] and [competitor product name]?", "Why should I choose [product name] over [competitor product name]?", "Which product is better, [product name] or [competitor product name]?"],
+          "responses": ["[Product name] offers [unique features/benefits], while [competitor product name] does not. Additionally, [product name] has received higher customer ratings and reviews.", "Based on customer feedback, [product name] is the preferred choice over [competitor product name]. Customers have praised its [unique features/benefits], which are not available with [competitor product name].", "When compared to [competitor product name], [product name] offers superior [features/benefits]. It has also received higher ratings and reviews from customers."]
+          
+      },
+      {
+          "tag": "confirmation",
+          "patterns": ["Did my order go through?", "Can you confirm my order?", "Is my order confirmed?", "Has my order been processed?"],
+          "responses": ["Let me check if your order has been confirmed. Can you please provide your order number?", "I can check the status of your order to see if it has been confirmed. Can you please provide your order number?", "I'd be happy to check if your order has been confirmed. Can you please provide your order number?", "I can confirm the status of your order for you. Can you please provide your order number?"]
+          
+      },
+      {
+          "tag": "modification",
+          "patterns": ["Can I change my order?", "Can I modify my order?", "Is it possible to cancel my order?", "Can I add an item to my order?"],
+          "responses": ["Modifying an order depends on its current status. Can you please provide your order number so I can check?", "Changes to an order may be possible, depending on its current status. Can you please provide your order number so I can check?", "Cancelling or modifying an order may be possible. Can you please provide your order number so I can check?", "I can check if it's possible to modify your order. Can you please provide your order number?"]
+          
+      },
+      {
+          "tag": "delivery_info",
+          "patterns": ["When will my order arrive?", "Can you provide me with a delivery date?", "What is the estimated delivery time?", "Can you track my order?"],
+          "responses": ["I can provide you with an estimated delivery date. Can you please provide your order number?", "Sure, let me check the estimated delivery time for your order. Can you please provide your order number?", "I'd be happy to check the estimated delivery time for your order. Can you please provide your order number?", "I can track your order to provide you with an estimated delivery date. Can you please provide your order number?"]
+          
+      },
+      {
+          "tag": "order_payment",
+          "patterns": ["How much do I owe?", "Can I pay for my order now?", "Is my payment confirmed?", "Can I change the payment method?"],
+          "responses": ["I can check the status of your payment for your order. Can you please provide your order number?", "Let me check if your payment for the order has been confirmed. Can you please provide your order number?", "I'd be happy to check the status of your payment for the order. Can you please provide your order number?", "If you'd like to change the payment method, I can check if it's possible. Can you please provide your order number?"]
+          
+      },
+      {
+          "tag": "cancellation",
+          "patterns": ["Can I cancel my order?", "Is it too late to cancel my order?", "How do I cancel my order?", "Can you cancel my order for me?"],
+          "responses": ["Cancelling an order depends on its current status. Can you please provide your order number so I can check?", "I can check if it's possible to cancel your order. Can you please provide your order number?", "Let me check the status of your order to see if it can still be cancelled. Can you please provide your order number?", "I'd be happy to check if your order can be cancelled. Can you please provide your order number?"]
+          
+      },
+      {
+          "tag": "return",
+          "patterns": ["Can I return my order?", "How do I initiate a return?", "What is the return policy?", "Can you help me with a return?"],
+          "responses": ["Returning an order depends on its current status and the item's eligibility for return. Can you please provide your order number so I can check?", "I can provide you with the details of the return policy and help you initiate a return. Can you please provide your order number?", "Let me check if the item is eligible for return and provide you with the next steps. Can you please provide your order number?", "I'd be happy to assist you with your return. Can you please provide your order number?"]
+          
+      },
+      {
+          "tag": "tracking",
+          "patterns": ["Can you track my order?", "Where is my order?", "When will my order be delivered?", "How can I track my order?"],
+          "responses": ["I can provide you with the tracking information for your order. Can you please provide your order number?", "Sure, let me check the status and location of your order. Can you please provide your order number?", "I'd be happy to check the status and estimated delivery date of your order. Can you please provide your order number?", "If you'd like to track your order, I can provide you with the tracking information. Can you please provide your order number?"]
+          
+      },
+      {
+          "tag": "payment_issue",
+          "patterns": ["I'm having issues with my payment", "My payment didn't go through", "Why was my payment declined?", "Can I change my payment method?"],
+          "responses": ["I can check the status of your payment and help you with any issues. Can you please provide your order number?", "Let me check the payment status and see if there are any issues. Can you please provide your order number?", "I'd be happy to help you with any payment issues you're experiencing. Can you please provide your order number?", "If you'd like to change the payment method, I can check if it's possible. Can you please provide your order number?"]
+          
+      },
+      {
+          "tag": "availability",
+          "patterns": ["Is this product available?", "When will this product be back in stock?", "Can I pre-order this product?", "How many of this product do you have in stock?"],
+          "responses": ["Let me check if this product is available. What is the name of the product?", "I can check when this product will be back in stock. What is the name of the product?", "Sure, I can help you pre-order this product. What is the name of the product?", "Let me check how many of this product we have in stock. What is the name of the product?"]
+          
+      },
+      {
+          "tag": "product_info",
+          "patterns": ["What are the features of this product?", "Can you tell me more about this product?", "What is included in the package?", "What are the specifications of this product?"],
+          "responses": ["Sure, let me look that up for you. Which product are you interested in?", "I can definitely provide more information on this product. Which one are you referring to?", "Of course, which product do you need more information about?", "I'd be happy to give you more details about this product. Which one are you interested in?"]
+          
+      }
+    ]
+  }
+  
